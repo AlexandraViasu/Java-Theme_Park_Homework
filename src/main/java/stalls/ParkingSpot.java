@@ -1,8 +1,6 @@
 package stalls;
 
-import behaviours.IReviewed;
-
-public enum ParkingSpot implements IReviewed {
+public enum ParkingSpot {
     A1,
     A2,
     A3,
@@ -12,13 +10,5 @@ public enum ParkingSpot implements IReviewed {
     B3,
     B4;
 
-    @Override
-    public int getRating() {
-        return 0;
-    }
 
-    @Override
-    public String getName() {
-        return null;
-    }
 }
